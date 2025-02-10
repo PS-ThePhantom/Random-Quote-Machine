@@ -1,0 +1,91 @@
+*{
+  color: black;
+}
+
+body{
+  margin: 0;
+  padding: 0;
+}
+
+.container{
+  width: 100%;
+  min-height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+#quote-box{
+  display: flex;
+  flex-direction: column;
+  width: 500px;
+  max-width: 500px;
+  padding: 50px;
+  background-color: rgba(200, 200, 200, 50%);
+  border-radius: 10px;
+  margin: 20px;
+}
+
+.quote-text{
+  text-align: center;
+  font-family: "Outfit", serif;
+  font-optical-sizing: auto;
+  font-weight: 400;
+  font-style: normal;
+  font-size: 22px;
+}
+
+.quote-text > span{
+  margin: 0 10px;
+}
+
+.author-text{
+  font-family: "Blinker", serif;
+  font-weight: 300;
+  font-style: normal;
+  font-size: 17px;
+  text-align: center;
+  margin: 20px 0;
+}
+
+.author-text > i{
+  height: 10px;
+  line-height: 10px;
+}
+
+.author-text > span{
+  margin: 0 5px;
+}
+
+#new-quote, a{
+  margin: 20px auto 0 auto;
+  width: 200px;
+  height: 55px;
+  font-family: "Comfortaa", serif;
+  font-weight: 600;
+  font-style: normal;
+  font-size: 19px;
+  border: none;
+  border-radius: 5px;
+  background-color: rgb(200,200,100);
+  cursor: pointer;
+}
+
+#new-quote:hover, a:hover{
+  background-color: rgba(250,200,0);
+}
+
+#new-quote:active, a:active{
+  transform: scale(90%);
+}
+
+a{
+  line-height: 55px;
+  text-align: center;
+  text-decoration: none;
+  color: black;
+}
+
+a > i, #new-quote > i{
+  margin-right: 7px;
+}
